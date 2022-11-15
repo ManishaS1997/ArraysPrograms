@@ -22,8 +22,20 @@ public class ArrayDemo {
 		{
 			System.out.println("a["+i+"]= "+a[i]); //a[0]=1 a[1]=2
 		}
+		// 45 89 45
+		//maximum element 
+		//array element > max :max=a[i]//89 max=89
+		int max=a[0];
 		
+		for(int i=0;i<a.length;i++)
+		{
+			if(a[i]>max)
+			{
+				max=a[i];
+			}
+		}
 		
+		System.out.println("Maxium element among the array is "+max);
 
 	}
 
